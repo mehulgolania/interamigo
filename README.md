@@ -1,6 +1,5 @@
 # Interamigo
 ![showcase](screenshot.png)
- Ecommerce Website
  
  ## About Project
  Fully Responsive Ecommerce Website.
