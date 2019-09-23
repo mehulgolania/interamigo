@@ -1,0 +1,497 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Deals</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css" media="screen">
+
+<link href="css/style.css" rel="stylesheet" type="text/css" >
+<link href="css/media-queries.css" rel="stylesheet" type="text/css" >
+
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="js/placeholder.js"></script>
+
+<!--[if lt IE 9]>
+	<script src="js/html5shiv-printshiv.js"></script>
+
+<![endif]-->
+<!-- respond.js for IE less than 9 -->
+<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+    
+
+<![endif]-->
+<script src="js/bootstrap.js"></script>
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="js/PIE_IE678.js"></script>
+<![endif]-->
+<!--[if IE 9]>
+  <script type="text/javascript" src="js/PIE_IE9.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/less-1.7.0.min.js"></script>
+
+<script>
+jQuery(window).load(function($) {
+var heights = jQuery(".c-details").map(function ()
+    {
+        return jQuery(this).outerHeight();
+    }).get(),
+
+    maxHeight = Math.max.apply(null, heights);
+
+jQuery(".c-details").css('height', maxHeight);
+});
+</script>
+
+</head>
+
+<body>
+<!-- header starts -->
+<header id="header" class="full-width">
+	<section class="full-width">
+		<section class="width-content top-section">
+			<aside class="logo left">
+				<a href="index.html">
+					<img src="images/logo.png" alt="Logo"/>
+				</a>
+			</aside>
+			<aside class="login right">
+				<span class="phone">
+					<img src="images/phone-icon.png" alt="Call"/>
+					+ 012-345-6789
+				</span>
+				<!-- <span class="login-btn">
+					<a href="#">Login</a>
+				</span> -->
+			</aside>
+			<div class="clearfix"></div>
+		</section>
+	</section>
+	
+	
+	<nav class="full-width navigation navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<section class="width-content">
+				<!-- Responsive Nav starts  -->
+				<div class="navbar-header">
+					  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+				</div>
+				<!-- Responsive Nav Ends -->
+				
+				<!-- Main Navigation Starts -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About us</a></li>
+						<li><a href="how-its-work.html">How its work</a></li>
+						<li><a href="services.html">Services & Prices</a></li>
+						<li><a href="#">News & Blog</a></li>
+						<li class="last-nav"><a href="deals.html" class="current-page">Deals</a></li>
+					</ul>
+				</div>
+				<!-- Main Navigation Starts -->
+			<div class="clearfix"></div>
+			</section>
+		</div>
+	</nav>
+</header>
+<!-- headers ends -->
+
+<!-- Where You are Starts -->
+<section class="full-width">
+	<section class="width-content">
+		<article class="page-root">
+			<h4>
+				<span class="s-page"><a href="#">Home</a></span>
+				<span class="arrow"> >> </span>
+				<span class="c-page"><a href="#">Deals</a></span>
+			</h4>
+		</article>
+	</section>
+</section>
+<!-- Where You are Ends-->
+	
+<!-- Banner Starts -->
+<section class="full-width">
+	<section class="width-content">
+		<article class="banner">
+			<img src="images/deals.jpg" alt="Deals Banner"/>
+			
+			<section class="s-heading">
+				<h2>Deals</h2>
+			</section>
+		</article>
+	</section>
+</section>
+<!-- Banner Ends -->
+	
+<!-- Deals content Starts -->
+<section class="full-width">
+	<section class="width-content">
+		<!-- Special Deals Starts -->
+		<article class="selected-ser">
+			<aside class="s-selected special-deals left">
+			
+				<div class="s-selected-content">
+					<div class="sel-ser">Special Deals :</div>
+					
+					<div class="sel-ser-wrapper">
+						<div class="seld-ser seld-spcl">
+							<select>
+								<option>Miami</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				
+			</aside>
+		
+			<aside class="s-dollar right">
+				<h4>From USD</h4>
+				<h3>$ 68.23</h3>
+			</aside>
+		<div class="clearfix"></div>
+		</article>
+		<!-- Special Deals Ends -->
+
+		<!-- Deals Details Starts -->
+		<section class="deals-content">
+			<section class="coupons">
+				<aside class="new-c left">
+					<img src="images/seizer.png" alt="Seizer"/>
+					<h3>New Coupons</h3>
+				</aside>
+				
+				<aside class="available-c">
+					<p>There are currently <span>87</span> active coupons</p>
+				</aside>
+			<div class="clearfix"></div>
+			</section>
+		</section>
+		
+		<section class="coupons-wrap">
+			<div class="a-c-wrap">
+				<div class="tr">
+					<article class="available-coupons left">
+						<div class="a-c-img">
+							<img src="images/place-1.jpg" alt="Places"/>
+						</div>
+						<div class="c-details">
+							<h4>Miami Beach - Art Deco District/South Beach </h4>
+							<p class="c-cat">Arts & Culture</p>
+							<p class="c-place">Miami Beach - Art Deco District/South Beach</p>
+							
+							<div class="coupon-wrapper">
+								<p class="c-no left">interamigo123</p>
+								<div class="c-price right">
+									<p>
+										<span class="old">$80</span>
+										<span class="new">$40</span>
+									</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</article>
+				
+					<article class="available-coupons left">
+						<div class="a-c-img">
+							<img src="images/place-2.jpg" alt="Places"/>
+						</div>
+						<div class="c-details">
+							<h4>Hampton Inn & Suites Miami Brickell/Downtown</h4>
+							<p class="c-cat">Accommodations</p>
+							<p class="c-place">Downtown Miami Area</p>
+							
+							<div class="coupon-wrapper">
+								<p class="c-no left">interamigo103</p>
+								<div class="c-price right">
+									<p>
+										<span class="old">$70</span>
+										<span class="new">$60</span>
+									</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</article>
+				
+					<article class="available-coupons lc right">
+						<div class="a-c-img">
+							<img src="images/place-3.jpg" alt="Places"/>
+						</div>
+						<div class="c-details">
+							<h4>Fontainebleau Miami Beach</h4>
+							<p class="c-cat">Accommodations</p>
+							<p class="c-place">Miami Beach</p>
+							
+							<div class="coupon-wrapper">
+								<p class="c-no left">interamigo163</p>
+								<div class="c-price right">
+									<p>
+										<span class="old">$47</span>
+										<span class="new">$37</span>
+									</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</article>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			
+				<article class="available-coupons left">
+					<div class="a-c-img">
+						<img src="images/place-4.jpg" alt="Places"/>
+					</div>
+					<div class="c-details">
+						<h4>Hampton Inn & Suites Miami Brickell/Downtown</h4>
+						<p class="c-cat">Accommodations</p>
+						<p class="c-place">Downtown Miami Area</p>
+						
+						<div class="coupon-wrapper">
+							<p class="c-no left">interamigo653</p>
+							<div class="c-price right">
+								<p>
+									<span class="old">$23</span>
+									<span class="new">$13</span>
+								</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</article>
+			
+			<article class="available-coupons left">
+				<div class="a-c-img">
+					<img src="images/place-5.jpg" alt="Places"/>
+				</div>
+				<div class="c-details">
+					<h4>Hampton Inn & Suites Miami Brickell/Downtown</h4>
+					<p class="c-cat">Accommodations</p>
+					<p class="c-place">Downtown Miami Area</p>
+					
+					<div class="coupon-wrapper">
+						<p class="c-no left">interamigo153</p>
+						<div class="c-price right">
+							<p>
+								<span class="old">$92</span>
+								<span class="new">$82</span>
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</article>
+			
+			<article class="available-coupons lc right">
+				<div class="a-c-img">
+					<img src="images/place-6.jpg" alt="Places"/>
+				</div>
+				<div class="c-details">
+					<h4>ONE Bal Harbour Resort & Spa</h4>
+					<p class="c-cat">Accommodations</p>
+					<p class="c-place">Bal Harbour</p>
+					
+					<div class="coupon-wrapper">
+						<p class="c-no left">interamigo890</p>
+						<div class="c-price right">
+							<p>
+								<span class="old">$66</span>
+								<span class="new">$58</span>
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</article>
+			
+		<div class="clearfix"></div>
+		</section>
+		<!-- Deals Details Ends -->
+	
+		<!-- Pagination Start -->
+		<section>
+			<article class="page">
+				<ul class="pagination">
+					<li class="page-counter">Page 1 of 17</li>
+					<li><a href="#"><span>&laquo;</span></a></li>
+					<li class="active"><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">...</a></li>
+					<li><a href="#">&raquo;</a></li>
+					<li class="lc"><a href="#">Last <span>&raquo;</span></a></li>
+				<div class="clearfix"></div>
+				</ul>
+			</article>
+		</section>
+		<!-- Pagination End -->
+	</section>
+</section>
+<!-- Deals content Ends -->
+	
+
+
+<!-- Contact Starts-->
+<section class="full-width contact">
+	<section class="width-content">
+		<article class="c-heading">
+			<div class="contact-head-wrapper">
+				<span>Request Contact</span>
+				<span class="or"><img src="images/or.png" alt="OR"/></span>
+				<span class="c-no">+305-502-8598</span>
+			</div>
+		</article>
+		
+		<div class="row c-form">
+			<form name="contact-form" method="" action="">
+				<div class="col-md-6 txt-r field-l">
+					<input type="text" name="f-name" Placeholder="First Name*"/>
+					<input type="text" name="l-name" Placeholder="Last Name*"/>
+					<input type="text" name="org" Placeholder="Organization*"/>
+					<input type="text" name="email" Placeholder="Email*"/>
+					<input type="text" name="tel" Placeholder="Telephone*"/>
+				</div>
+				
+				<div class="col-md-6 txt-l field-r">
+					<select>
+						<option>Country*</option>
+						<option>India</option>
+						<option>USA</option>
+						<option>UK</option>
+					</select>
+					
+					<textarea placeholder="Message or Request*"></textarea>
+					
+					<input type="submit" name="" value="Send" class="send-btn"/>
+				</div>
+			<div class="clearfix"></div>
+			</form>
+		</div>
+	</section>
+</section>
+<!-- Contact Ends-->
+
+<!-- Footer Starts -->
+<footer class="full-width footer">
+	<section class="width-content">
+	
+			<div class="fc f-wrap">
+				<article class="f-logo">
+					<img src="images/f-logo.png" alt="Footer Logo"/>
+				</article>
+			</div>
+		  
+			<div class="fc c-wrap">
+				<article class="categories">
+					<h2 class="f-heading">CATEGORIES</h2>
+						<section class="d-wrap">
+							<div class="row">
+								<div class="col-md-6">
+									<ul>
+										<li><a href="index.html">Home</a></li>
+										<li><a href="about.html">About us</a></li>
+										<li><a href="how-its-work.html">How its work</a></li>
+										<li><a href="services.html">Services & Prices</a></li>
+										<li><a href="#">News & Blog</a></li>
+									</ul>
+								</div>
+								
+								<div class="col-md-6">
+									<ul>
+										<li><a href="deals.html">Deals</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+				</article>
+			</div>
+			
+			<div class="fc n-wrap">
+				<article class="newsletter">
+					<h2 class="f-heading">NEWSLETTER</h2>
+						<section class="d-wrap">
+							<section class="nl">
+								<form>
+									<div>
+										<p>Enter your e-mail Please</p>
+										
+										<div class="nl-email"> 
+											<input class="rounded" type="text" name=""/>
+											<input type="button" value="Go" class="go-btn rounded"/>
+										<div class="clearfix"></div>
+										</div>
+									</div>
+								</form>
+							</section>
+					
+							<section class="social">
+								<article>
+									<h2 class="f-heading">FOLLOW US</h2>
+									<nav>
+										<ul>
+											<li><a href="#"><img src="images/facebook.jpg" alt="Facebook"></a></li>
+											<li><a href="#"><img src="images/twitter.jpg" alt="Twitter"></a></li>
+											<li><a href="#"><img src="images/g-plus.jpg" alt="Google Plus"></a></li>
+										</ul>
+									</nav>
+								</article>
+							</section>
+						</section>
+				</article>
+			</div>
+			
+			<div class="fc wc">
+				<article class="w-wrap">
+					<h2 class="f-heading">WEATHER</h2>
+					
+					<section class="d-wrap">
+						<article class="weather">
+							<p class="time">1:10 AM</p>
+							<h4 class="state">Miami</h4>
+							<span class="deg">26</span>
+						</article>
+						
+						<article class="weather lw">
+							<p class="time">1:10 AM</p>
+							<h4 class="state">Orlando</h4>
+							<span class="deg">22</span>
+						</article>
+						
+						<p class="cf">
+							<span class="c"><sup>&#186;</sup>C /</span> <span class="f"><sup>&#186;</sup>F</span>
+						</p>
+						
+					</section>
+				</article>
+			</div>
+	<div class="clearfix"></div>
+	</section>
+</footer>
+<!-- Footer Ends -->
+
+<!-- Copyright Starts  -->
+<section class="full-width copyright">
+	<section class="width-content">
+		<p class="cr">All rights reserved &copy; 2013 - 2014 Interamigo.com</p>
+	</section>
+</section>
+<!-- Copyright Ends  -->
+</body>
+</html>
